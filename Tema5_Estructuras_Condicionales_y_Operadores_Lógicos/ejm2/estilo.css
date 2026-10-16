@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background: #eaf4ff;
+    padding: 30px;
+}
+
+.tarjeta {
+    background: white;
+    width: 400px;
+    margin: auto;
+    padding: 25px;
+}
+
+h2 {
+    color: #1769aa;
+    text-align: center;
+    font-size: 26px;
+}
+
+p {
+    color: #000000;
+    font-size: 20px;
+    padding: 8px;
+}
+
+h3 {
+    color: #16804a;
+    text-align: center;
+    font-size: 23px;
+}

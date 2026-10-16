@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 50px;
+}
+
+.tarjeta {
+    background-color: rgb(199, 226, 255);
+    width: 350px;
+    margin: auto;
+    padding: 30px;
+}
+
+h1 {
+    color: #0034a5;
+    font-size: 32px;
+}
+
+p {
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #000000;
+    font-size: 26px;
+}
+
+.suma {
+    color: #2563eb;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.promedio {
+    color: #00ad40;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 20px 0;
+}
