@@ -1,0 +1,327 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #10131D;
+    color: #F1F5F9;
+    min-height: 100vh;
+}
+
+.encabezado {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 22px 8%;
+    border-bottom: 1px solid #292E3D;
+    background: #171B28;
+}
+
+.logo {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+    background: #8B5CF6;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #FDE68A;
+}
+
+.encabezado h1 {
+    font-size: 21px;
+}
+
+.encabezado p {
+    color: #9CA3AF;
+    font-size: 13px;
+    margin-top: 3px;
+}
+
+.etiqueta {
+    margin-left: auto;
+    padding: 9px 13px;
+    border-radius: 8px;
+    background: #28213F;
+    color: #C4B5FD;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.contenedor {
+    max-width: 1000px;
+    width: 90%;
+    margin: 35px auto;
+}
+
+.bienvenida {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 35px;
+    border: 1px solid #37304F;
+    border-radius: 20px;
+    background: linear-gradient(120deg, #292044, #191D2C);
+}
+
+.subtitulo {
+    color: #C4B5FD;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 13px;
+}
+
+.bienvenida h2 {
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+.descripcion {
+    color: #B7BBC9;
+    line-height: 1.6;
+    margin-bottom: 17px;
+}
+
+.nivel {
+    display: inline-block;
+    padding: 7px 12px;
+    background: #38304F;
+    color: #DDD6FE;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.icono-principal {
+    font-size: 75px;
+    padding: 15px;
+}
+
+.resumen {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin: 22px 0 35px;
+}
+
+.dato {
+    background: #1A1F2D;
+    border: 1px solid #2C3243;
+    padding: 20px;
+    border-radius: 14px;
+}
+
+.dato span {
+    display: block;
+    color: #9CA3AF;
+    font-size: 11px;
+    margin-bottom: 12px;
+}
+
+.dato strong {
+    font-size: 21px;
+}
+
+.titulo-seccion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.titulo-seccion h2 {
+    font-size: 23px;
+    margin-bottom: 6px;
+}
+
+.titulo-seccion p {
+    color: #9CA3AF;
+    font-size: 14px;
+}
+
+.contador {
+    font-size: 11px;
+    color: #C4B5FD;
+    background: #29213E;
+    padding: 9px 12px;
+    border-radius: 8px;
+}
+
+.lista-ejercicios {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.tarjeta {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    padding: 18px;
+    border: 1px solid #303647;
+    border-left: 4px solid #8B5CF6;
+    border-radius: 13px;
+    background: #1A1F2D;
+    transition: transform 0.2s, background 0.2s;
+}
+
+.tarjeta:hover {
+    transform: translateY(-3px);
+    background: #22283A;
+}
+
+.numero {
+    color: #A1A1AA;
+    font-size: 17px;
+    font-weight: bold;
+    min-width: 22px;
+}
+
+.icono-ejercicio {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    background: #29213E;
+    font-size: 24px;
+}
+
+.informacion {
+    flex: 1;
+}
+
+.informacion h3 {
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+.informacion p {
+    color: #9CA3AF;
+    font-size: 13px;
+}
+
+.tiempo {
+    text-align: right;
+}
+
+.tiempo strong {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.tiempo span {
+    color: #9CA3AF;
+    font-size: 12px;
+}
+
+.naranja {
+    border-left-color: #FB923C;
+}
+
+.azul {
+    border-left-color: #38BDF8;
+}
+
+.morado {
+    border-left-color: #A78BFA;
+}
+
+.verde {
+    border-left-color: #4ADE80;
+}
+
+.rosa {
+    border-left-color: #F472B6;
+}
+
+.pie {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 35px;
+    padding: 22px 0;
+    border-top: 1px solid #292E3D;
+    color: #9CA3AF;
+    font-size: 12px;
+}
+
+@media (max-width: 600px) {
+    .encabezado {
+        padding: 18px 5%;
+    }
+
+    .etiqueta {
+        display: none;
+    }
+
+    .contenedor {
+        width: 92%;
+        margin: 22px auto;
+    }
+
+    .bienvenida {
+        padding: 24px;
+    }
+
+    .bienvenida h2 {
+        font-size: 25px;
+    }
+
+    .icono-principal {
+        font-size: 45px;
+        padding: 0;
+    }
+
+    .resumen {
+        grid-template-columns: 1fr;
+    }
+
+    .dato {
+        padding: 16px;
+    }
+
+    .tarjeta {
+        gap: 10px;
+        padding: 13px 10px;
+    }
+
+    .icono-ejercicio {
+        width: 38px;
+        height: 38px;
+        font-size: 19px;
+    }
+
+    .informacion h3 {
+        font-size: 14px;
+    }
+
+    .informacion p {
+        font-size: 11px;
+    }
+
+    .tiempo strong {
+        font-size: 12px;
+    }
+
+    .tiempo span {
+        font-size: 10px;
+    }
+
+    .pie {
+        flex-direction: column;
+    }
+}
